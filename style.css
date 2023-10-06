@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(9, 74, 112);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box{
+    height: 550px;
+    width: 1000px;
+    border: 1px solid brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+     height: 400px;
+     width: 400px;
+     border: 1px solid black;
+     background-color: rgb(77, 7, 77);
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+    box-shadow: 2px 3px 5px;
+    transition: 0.5s linear;
+
+
+}
+
+.box2{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    background-image: url('https://github.com/loveBabbar/CodehelpYTWebDev/blob/main/lecture27/images/icon.jpg?raw=true');
+    background-size: cover;
+    box-shadow: 2px 3px 5px;
+    transition: 0.5s linear;
+}
+
+.box1:hover{
+    transform: scale(1.05);
+}
+
+.box2:hover{
+    transform: scale(1.05);
+}
+
+.c1{
+    /* border: 1px solid brown; */
+    color:white;
+    font-weight: 400;
+    font-size: x-large;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+
+.c2{
+    /* border: 1px solid brown; */
+    margin-left: 30px;
+    color: white;
+    
+}
+.c3{
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.c31{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
